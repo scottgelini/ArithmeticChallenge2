@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ArithmeticChallenge</string>
+    <string name="greeting">Hi There! Click on what you would like to play.</string>
+    <string name="quit">Quit?</string>
+</resources>
