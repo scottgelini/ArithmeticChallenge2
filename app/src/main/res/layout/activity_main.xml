@@ -25,11 +25,11 @@
         android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button_Exit"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_Exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -58,26 +58,26 @@
         app:layout_constraintVertical_bias="0.0">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButtonAdd"
             android:layout_width="match_parent"
             android:layout_height="73dp"
             app:srcCompat="@drawable/button_add" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imageButtonMultiply"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             app:srcCompat="@drawable/button_multiply"
             android:contentDescription="TODO" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/imageButtonSubtract"
             android:layout_width="412dp"
             android:layout_height="48dp"
             app:srcCompat="@drawable/button_subtract" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonDivide"
             android:layout_width="406dp"
             android:layout_height="64dp"
             app:srcCompat="@drawable/button_divide" />
