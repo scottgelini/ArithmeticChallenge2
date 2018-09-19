@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_Equation"
         android:layout_width="284dp"
         android:layout_height="55dp"
         android:layout_marginBottom="8dp"
@@ -33,7 +33,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:text="@string/textView_Equation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -57,33 +57,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/textView_Equation"
+        app:layout_constraintVertical_bias="0.012">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_Answer1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="@string/button_Answer1"
             tools:text="Answer 1" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button_Answer2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="@string/button_Answer2"
             tools:text="Answer 2" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button_Answer3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="@string/button_Answer3"
             tools:text="Answer 3" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_YourScore"
         android:layout_width="176dp"
         android:layout_height="34dp"
         android:layout_marginBottom="8dp"
@@ -92,7 +92,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="260dp"
-        android:text="TextView"
+        android:text="@string/textView_YourScore"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -102,7 +102,7 @@
         tools:text="Your Score :" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView_HighScore"
         android:layout_width="176dp"
         android:layout_height="34dp"
         android:layout_marginBottom="8dp"
@@ -111,7 +111,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="260dp"
-        android:text="TextView"
+        android:text="@string/textView_HighScore"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.962"
@@ -121,7 +121,7 @@
         tools:text="HighScore :" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button_Menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -130,11 +130,13 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Menu"
+        android:text="@string/button_Menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.679"
         tools:text="Menu" />
 
     <ImageView
@@ -151,7 +153,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602"
+        app:layout_constraintVertical_bias="0.67"
         app:srcCompat="@drawable/otter" />
 
 </android.support.constraint.ConstraintLayout>
