@@ -25,6 +25,7 @@ public class Multiplication extends ArithmeticChallenge {
             choices[i] = (int) (50*(Math.random()));
             choices[(int)(3*Math.random())]= eNum * eNum2;
             return choices;
+            //hey
 
 
     }
