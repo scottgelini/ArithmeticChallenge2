@@ -12,7 +12,7 @@ public class Multiplication extends ArithmeticChallenge {
         protected String createQuestion() {
             mNum = (int) (12 * Math.random());
             mNum2 = (int) (12 * Math.random());
-            String equation = ((char) mNum + "X" + (char) mNum2);
+            String equation = (mNum + " X " + mNum2);
             return equation;
         }
 
