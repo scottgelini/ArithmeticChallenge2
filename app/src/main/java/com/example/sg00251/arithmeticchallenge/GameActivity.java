@@ -1,7 +1,8 @@
 package com.example.sg00251.arithmeticchallenge;
 
 
-
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -80,7 +81,7 @@ public class GameActivity extends AppCompatActivity {
             mChoice[index].setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v){
-                   // setScoreTextAndProgressBar(game.isCorrect(innerIndex));
+                   setScoreTextAndProgressBar(game.isCorrect(innerIndex));
                 }
             });
         }

@@ -5,7 +5,7 @@ public abstract class ArithmeticChallenge {
     private String mText;
     private String mQuestionText;
     public int[] mChoices = new int[3];
-    public String[] mChoiceText = new String[3];
+    public String[] mChoicesText = new String[3];
 
     public ArithmeticChallenge(int TOTAL_LEVELS, int TURNS_PER_LEVEL){
 
@@ -27,12 +27,14 @@ public abstract class ArithmeticChallenge {
 
     public String getChoice(int index) {
 
-        return "";
+        return mChoicesText[index];
 
     }
 
     public void setChoices(int[] choice) {
-        mChoices = choice;
+        for(int i=0; i<3;i++)
+            mChoicesText[i] = " " + choice[i] + " ";
+
     }
 
     public String getText() {
@@ -43,7 +45,8 @@ public abstract class ArithmeticChallenge {
         mText = text;
     }
 
-
-
+public boolean isCorrect(int choice) {
+    return true;
+}
 
 }
