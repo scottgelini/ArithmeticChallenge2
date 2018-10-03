@@ -31,9 +31,9 @@ public abstract class ArithmeticChallenge {
 
     }
 
-    public void setChoices(int[] choice) {
+    public void setChoices(int[] choices) {
         for(int i=0; i<3;i++)
-            mChoicesText[i] = " " + choice[i] + " ";
+            shuffleChoices(choices);
 
     }
 
@@ -48,5 +48,33 @@ public abstract class ArithmeticChallenge {
 public boolean isCorrect(int choice) {
     return true;
 }
+private void shuffleChoices(int[] choices){
+        int choice =(int) (3*Math.random()+1);
+        switch (choice){
+            case 1:
+                mChoicesText[0] = "" + choices[0] + "";
+                mChoicesText[1] = "" + choices[1] + "";
+                mChoicesText[2] = "" + choices[2] + "";
+                break;
+
+            case 2:
+                mChoicesText[0] = "" + choices[1] + "";
+                mChoicesText[1] = "" + choices[0] + "";
+                mChoicesText[2] = "" + choices[2] + "";
+                break;
+
+            case 3:
+                mChoicesText[0] = "" + choices[2] + "";
+                mChoicesText[1] = "" + choices[1] + "";
+                mChoicesText[2] = "" + choices[0] + "";
+                break;
+
+
+        }
+
+
+
+}
+
 
 }

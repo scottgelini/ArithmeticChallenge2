@@ -20,7 +20,7 @@ public class Multiplication extends ArithmeticChallenge {
         protected int[] createChoices(){
             for(int i=0; i < choices.length;i++)
                 choices[i] = (int) (50*(Math.random()));
-            choices[(int)(3*Math.random())]= mNum * mNum2;
+            choices[0]= mNum * mNum2;
             return choices;
             //hey
 
