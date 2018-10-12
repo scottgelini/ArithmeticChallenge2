@@ -9,6 +9,8 @@
     <string name="textView_Equation">Equation</string>
     <string name="textView_YourScore">Your Score</string>
     <string name="textView_HighScore">High Score</string>
-
-
+    <string name="correct_toast">Mr.Gustin would be proud</string>
+    <string name="incorrect_toast">Shameful</string>
+    <string name="win_text">Good job!</string>
+    <string name="next_button">Next</string>
 </resources>
